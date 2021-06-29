@@ -1,0 +1,13 @@
+name: SRAApp_env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - pyqt
+  - neo4j-python-driver
+  - pyqtgraph
+  - xlrd
+  - xlwt
+  - biopython
+prefix: /usr/local/anaconda3/envs/SRAApp_env
